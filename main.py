@@ -4,7 +4,7 @@ def mygtuko_veiksmas():
 
     print( field.get() )
 
-    lbl.config( text = "Vardas: " + field.get() )
+    lbl.config( text = "Vardelis: " + field.get() )
 
 def antro_mygtuko_veiksmas():
     lbl = Label( window, text="Naujas tekstas " )
@@ -15,7 +15,7 @@ window = Tk()
 window.geometry( "300x400" )
 
 
-lbl = Label( window, text="Vardas: " )
+lbl = Label( window, text="Vardelis: " )
 field = Entry( window )
 
 
