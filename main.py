@@ -1,5 +1,5 @@
 from tkinter import *
-print("akujens pakeitimas")
+print("akujens  pakeitimas")
 def mygtuko_veiksmas():
 
     print( field.get() )
